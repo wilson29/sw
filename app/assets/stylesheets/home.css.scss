@@ -60,7 +60,7 @@ div.tabs div.tab.selected{
 }
 
 div.tabs div.tab.selected{
-    background: url(/menuSelBack.png) repeat-x;
+    background: url(/assets/menuselback90.png) repeat-x;
     border-right-color: #7c7c77;
 }
 
@@ -87,4 +87,10 @@ div.tabs div.tab div.arrow{
 
 div.tabs div.tab.selected div.arrow{
     display: block;
+}
+
+#pic { 
+  border: #d6d6d2 solid 10px;
+	-moz-border-radius: 13px;
+	border-radius: 13px
 }
