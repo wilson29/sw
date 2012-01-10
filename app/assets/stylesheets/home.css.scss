@@ -68,6 +68,8 @@ div.tabs div.tab.first{
 	border-top: #d6d6d2  solid 8px;
 	-moz-border-radius-topleft: 13px;
 	border-top-left-radius: 13px;
+	-moz-border-radius-bottomleft: 13px;
+	border-bottom-left-radius: 13px;
   border-right-style: none;
 }
 
@@ -88,6 +90,10 @@ div.tabs div.tab div.arrow{
 
 div.tabs div.tab.selected div.arrow{
     display: block;
+}
+
+.curvedContainer {
+  border: none;
 }
 
 #pic { 
