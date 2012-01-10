@@ -1,3 +1,6 @@
+html,body{
+  background-color: #eeeeee
+}
 div.tabscontainer{
     margin:15px 0px;
 }
@@ -21,12 +24,15 @@ div.tabscontainer div.curvedContainer{
 }
 
 div.tabscontainer div.curvedContainer .tabcontent{
-	display:none;
+  display:none;
 	padding:20px;
 	font-size:20px;
 	font-family: "CenturyGothicRegular", "Century Gothic", Arial, Helvetica, sans-serif;
 }
 
+.tabscontainer{
+  width: 75%;
+}
 div.tabs div.tab{
     display: block;
     height: 90px; //58px
