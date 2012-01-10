@@ -29,7 +29,7 @@ div.tabscontainer div.curvedContainer .tabcontent{
 
 div.tabs div.tab{
     display: block;
-    height: 58px;
+    height: 90px; //58px
     background: #eeeeea;
     border: #d6d6d2 solid 1px;
     border-top: none;
@@ -42,7 +42,7 @@ div.tabs div.link{
 	padding-top:20px;
 	color: #333333;
   font-family: 'Paytone One', sans-serif;
-  font-size: 2em;
+  font-size: 30px;
 }
 
 div.tabs div.tab.selected{
@@ -69,7 +69,7 @@ div.tabs div.tab.last{
 div.tabs div.tab div.arrow{
     position: absolute;
     background: url(/homeSelArrow.png) no-repeat;
-    height: 58px; //58px
+    height: 90px; //58px
     width: 17px;
     left: 100%;
     top: 0px;
