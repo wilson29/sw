@@ -1,5 +1,6 @@
 html,body{
-  background-color: #eeeeee
+  background-color: #eeeeea;
+  
 }
 div.tabscontainer{
     margin:15px 0px;
@@ -17,7 +18,7 @@ div.tabscontainer div.tabs{
 
 div.tabscontainer div.curvedContainer{
 	margin-left: 259px;
-	border:1px solid #7c7c77;
+	border:1px solid #d6d6d2;
 	min-height:400px;
 	-moz-border-radius: 13px;
 	border-radius: 13px;
@@ -27,11 +28,13 @@ div.tabscontainer div.curvedContainer .tabcontent{
   display:none;
 	padding:20px;
 	font-size:20px;
-	font-family: "CenturyGothicRegular", "Century Gothic", Arial, Helvetica, sans-serif;
+	font-family: 'Paytone One', sans-serif;;
 }
 
 .tabscontainer{
   width: 75%;
+  
+  
 }
 div.tabs div.tab{
     display: block;
