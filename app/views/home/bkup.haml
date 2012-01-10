@@ -1,0 +1,41 @@
+%head
+  -#%script {:type => "text/javascript", :src => "jquery-1.5.2.min.js"}
+  -#%script {:type = >"text/javascript", :src => "vert_tabs_helper.js"}
+  =javascript_include_tag("jquery-1.5.2.min.js")
+  =javascript_include_tag("vert_tabs_helper.js")
+%body
+  %div.tabscontainer
+    %div.tabs
+      %div.tab.selected.first#tab_menu_1
+        %div.link JavaScript
+        %div.arrow
+      %div.tab#tab_menu_2
+        %div.link CSS
+        %div.arrow
+      %div.tab#tab_menu_3
+        %div.link Jquery
+        %div.arrow
+
+  %div.curvedContainer
+    %div{:class=>"tabcontent", :id=> "tab_content_1" ,:style => "display:block"}
+      also known as ECMAScript,[6] is a prototype-based, obj
+      <br><br>
+      JavaScript is an implementment.
+      <br><br>
+      JavaScript's use
+      <br><br>
+      JavaScript use  
+    %div.tabcontent#tab_content_2
+      ddddddddyle sh.
+      <br><br>
+      hoodle boodle
+    %div.tabcontent#tab_content_3
+      ddd
+      <br><br>
+      muffins
+      <br><br>
+      gobble gobblee
+
+
+
+
