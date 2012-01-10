@@ -52,15 +52,19 @@ div.tabs div.link{
 	color: #333333;
   font-family: 'Paytone One', sans-serif;
   font-size: 30px;
+  
 }
 
+.link{
+
+}
 div.tabs div.tab.selected{
     color: #ffffff;
     //border-right-color: #aeaeaa;
 }
 
 div.tabs div.tab.selected{
-    background: url(/assets/menuselback90.png) repeat-x;
+    background: url(/menback90.png) repeat-x;
    // border-right-color: #7c7c77;
 }
 
@@ -101,3 +105,5 @@ div.tabs div.tab.selected div.arrow{
 	-moz-border-radius: 13px;
 	border-radius: 13px
 }
+
+
